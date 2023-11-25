@@ -7,13 +7,13 @@ KPI REQUIREMENTS
 
 # TOOLS USED
 
-*SQL SERVER MANAGEMENT STUDIO(SSMS)
-*MICROSOFT POWERBI
+* SQL SERVER MANAGEMENT STUDIO(SSMS)
+* MICROSOFT POWERBI
 
 1)DATA ANALYSIS WITH SQL SERVER MANAGEMENT STUDIO(SSMS)
->Connected to the server
->Created the Database
->Imported the Dataset to the Database
+- Connected to the server
+- Created the Database
+ -Imported the Dataset to the Database
 
 2)DATA VISUALIZATION USING POWERBI
 
@@ -22,24 +22,24 @@ KPI REQUIREMENTS
 ![image](https://github.com/flevidz/Pizza-Sales-Project/assets/150502418/07d6dc39-f163-46a8-b16e-1bb367f3fb60)
 
 # Dashboard Overview
-*HOME PAGE
-> Major key metrics tracked -Total revenue,Total orders,Total pizzas sold,avg order value,avg pizza per order
-> DAX formulas are used for these metrics.
-> Used clustered column chart for daily orders trend
-> Using Area chart plotted monthly trends for Total orders
-> Donut charts depicts % of sales by size & Category
-> Funnel chart shows Total pizzas sold by each category
-> Added pizza category and date filters
-> on Top left Page navigation buttons
-*BEST/WORST SELLERS
-> Using stacked bar chart depicted top 5 and bottom 5 pizza by revenue,quantity,Orders
+* HOME PAGE
+- Major key metrics tracked -Total revenue,Total orders,Total pizzas sold,avg order value,avg pizza per order
+- DAX formulas are used for these metrics.
+- Used clustered column chart for daily orders trend
+- Using Area chart plotted monthly trends for Total orders
+- Donut charts depicts % of sales by size & Category
+- Funnel chart shows Total pizzas sold by each category
+- Added pizza category and date filters
+- on Top left Page navigation buttons
+* BEST/WORST SELLERS
+- Using stacked bar chart depicted top 5 and bottom 5 pizza by revenue,quantity,Orders
 
 # Measures created
-1.Total Revenue = sum('dominos_sales$ (2)'[total_price])
-2.Total Pizza Sold = sum('dominos_sales$ (2)'[quantity])
-3.Total Orders = DISTINCTCOUNT('dominos_sales$ (2)'[order_id])
-4.Average Pizza Per Order = [Total Pizza Sold]/[Total Orders]
-5.Average Order Value = [Total Revenue]/[Total Orders]
+* Total Revenue = sum('dominos_sales$ (2)'[total_price])
+* Total Pizza Sold = sum('dominos_sales$ (2)'[quantity])
+* Total Orders = DISTINCTCOUNT('dominos_sales$ (2)'[order_id])
+* Average Pizza Per Order = [Total Pizza Sold]/[Total Orders]
+* Average Order Value = [Total Revenue]/[Total Orders]
 
 # Insights
 *Busiest days -
