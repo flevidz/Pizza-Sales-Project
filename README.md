@@ -5,7 +5,7 @@ KPI REQUIREMENTS
 ![image](https://github.com/flevidz/Pizza-Sales-Project/assets/150502418/44eca75b-cb35-4e10-9f59-b1337d90bb4b)
 ![image](https://github.com/flevidz/Pizza-Sales-Project/assets/150502418/23a61ec6-6824-4e40-8251-2cee47d08cae)
 
-##TOOLS USED
+# TOOLS USED
 
 *SQL SERVER MANAGEMENT STUDIO(SSMS)
 *MICROSOFT POWERBI
@@ -17,11 +17,11 @@ KPI REQUIREMENTS
 
 2)DATA VISUALIZATION USING POWERBI
 
-#Dashboards Screenshots
+# Dashboards Screenshots
 ![image](https://github.com/flevidz/Pizza-Sales-Project/assets/150502418/2f05e4e5-6edc-4a7b-a855-ceb761c386cc)
 ![image](https://github.com/flevidz/Pizza-Sales-Project/assets/150502418/07d6dc39-f163-46a8-b16e-1bb367f3fb60)
 
-#Dashboard Overview
+# Dashboard Overview
 *HOME PAGE
 > Major key metrics tracked -Total revenue,Total orders,Total pizzas sold,avg order value,avg pizza per order
 > DAX formulas are used for these metrics.
@@ -34,14 +34,14 @@ KPI REQUIREMENTS
 *BEST/WORST SELLERS
 > Using stacked bar chart depicted top 5 and bottom 5 pizza by revenue,quantity,Orders
 
-#Measures created
+# Measures created
 1.Total Revenue = sum('dominos_sales$ (2)'[total_price])
 2.Total Pizza Sold = sum('dominos_sales$ (2)'[quantity])
 3.Total Orders = DISTINCTCOUNT('dominos_sales$ (2)'[order_id])
 4.Average Pizza Per Order = [Total Pizza Sold]/[Total Orders]
 5.Average Order Value = [Total Revenue]/[Total Orders]
 
-#Insights
+# Insights
 *Busiest days -
 >Orders are highest on Monday/Sunday
 >There are maximum orders from month of July and January
