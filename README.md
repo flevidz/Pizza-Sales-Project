@@ -42,20 +42,20 @@ KPI REQUIREMENTS
 * Average Order Value = [Total Revenue]/[Total Orders]
 
 # Insights
-*Busiest days -
->Orders are highest on Monday/Sunday
->There are maximum orders from month of July and January
-*Sales Performance
->CATEGORY:Classic contributes to maximum sales and total orders.
->SIZE:Large size pizza contributes to maximum sales.
-*Best Sellers
->THAI Chicken Pizza maximum revenue.
->Classical Deluxe Pizza Maximum Quantity.
->Classical Deluxe Pizza maximum total orders.
-*Worst Sellers
->Brie Care Pizza minimum revenue
->Brie Care Pizza Minimum Quantity
->Brie Care Pizza maximum total orders.
+* Busiest days:
+- Orders are highest on Monday/Sunday
+- There are maximum orders from month of July and January
+* Sales Performance:
+- CATEGORY:Classic contributes to maximum sales and total orders.
+- SIZE:Large size pizza contributes to maximum sales.
+* Best Sellers:
+- THAI Chicken Pizza maximum revenue.
+- Classical Deluxe Pizza Maximum Quantity.
+- Classical Deluxe Pizza maximum total orders.
+* Worst Sellers:
+- Brie Care Pizza minimum revenue
+- Brie Care Pizza Minimum Quantity
+- Brie Care Pizza maximum total orders.
 
 
 
